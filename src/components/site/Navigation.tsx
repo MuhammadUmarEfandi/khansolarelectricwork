@@ -13,9 +13,9 @@ export function Logo() {
         />
       </span>
       <span className="leading-tight">
-        <span className="block font-display text-base font-bold">H & A</span>
+        <span className="block font-display text-base font-bold">Khan</span>
         <span className="block text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-          ENERGY SERVICES
+          SOLAR & ELECTRONICS WORK&nbsp;
         </span>
       </span>
     </a>
