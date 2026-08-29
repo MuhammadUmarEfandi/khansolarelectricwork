@@ -1,12 +1,12 @@
 export const COMPANY = {
   name: "H & A Energy Services",
-  address: "2km Rasool Nagar Road Near Dhoneke, Bridge, Wazirabad",
+  address: "Karachi",
   mapUrl: "https://share.google/twwMQKv8GnZpKGaTt",
-  email: "info@haenergyservices.com",
+  email: "info@khansolarelectricwork.com",
   hours: "Mon – Sat: 9:00 AM – 7:00 PM",
   phones: [
-    { label: "0327 9787752", tel: "03279787752", wa: "https://wa.me/+923279787752" },
-    { label: "0327 9787751", tel: "03279787751", wa: "https://wa.me/+923279787751" },
+    { label: "", tel: "03279787752", wa: "https://wa.me/+923279787752" },
+    { label: "0313 2247965", tel: "03279787751", wa: "https://wa.me/+923279787751" },
   ],
   whatsapp: "+923279787751",
   facebook: "https://www.facebook.com/people/HA-Energy-Services/61550086078248/",
@@ -28,12 +28,12 @@ export const NAV_LINKS = [
 ];
 
 export const SERVICE_AREAS = [
-  "Gujranwala",
-  "Nowshera Virkan",
-  "Lahore",
-  "Sialkot",
-  "Sheikhupura",
-  "Hafizabad",
-  "Gujrat",
-  "Wazirabad",
+  "Clifton and Defence",
+  "Nazimabad",
+  "Saddar",
+  "Malir",
+  "Gulshan-e-Iqbal",
+  "",
+  "Gulistan-e-Johar",
+  "",
 ];
