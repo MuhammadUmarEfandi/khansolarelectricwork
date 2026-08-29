@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { z } from "zod";
 import { toast } from "sonner";
-import { MapPin, Phone, Mail, Clock, Send, Facebook, Youtube } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { COMPANY, NAV_LINKS, SERVICE_AREAS } from "./data";
 import { Logo } from "./Navigation";
 
