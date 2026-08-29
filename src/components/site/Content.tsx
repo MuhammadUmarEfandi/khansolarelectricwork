@@ -71,13 +71,13 @@ export function About() {
     <section id="about" className="bg-background py-20">
       <div className="section-shell grid gap-12 lg:grid-cols-2 lg:items-center">
         <div>
-          <span className="eyebrow">About H & A Energy Services</span>
+          <span className="eyebrow">ABOUT KHAN SOLAR &amp; ELECTRONICS WORK&nbsp;</span>
           <h2 className="mt-4 text-3xl font-bold sm:text-4xl">
-            Leading the Green Energy Revolution in Wazirabad & Gujranwala
+            Leading the Green Energy Revolution in Karachi Devison
           </h2>
           <p className="mt-5 text-muted-foreground">
-            H & A Energy Services is a trusted installer of tier-1 solar panels and inverter systems,
-            serving homes, farms and factories across Punjab. From a single rooftop to a full
+             Khan Solar &amp; Electronics Work&nbsp; is a trusted installer of tier-1 solar panels and inverter systems,
+             serving homes, farms and factories across Karachi. From a single rooftop to a full
             industrial solarization plan, our in-house engineers design, install and maintain systems
             that pay for themselves in years — not decades.
           </p>
@@ -94,7 +94,7 @@ export function About() {
           <h3 className="font-display text-xl font-bold">Our Mission</h3>
           <p className="mt-3 text-muted-foreground">
             To make clean, affordable energy the default choice for every household, farmer and
-            business in Punjab — with honest engineering, quality hardware and service that lasts
+             business in Karachi — with honest engineering, quality hardware and service that lasts
             beyond installation day.
           </p>
           <div className="mt-7 grid gap-4 sm:grid-cols-2">
@@ -150,8 +150,8 @@ export function WhyChoose() {
     <section className="bg-navy py-20 text-navy-foreground">
       <div className="section-shell">
         <div className="max-w-2xl">
-          <span className="eyebrow border-accent/40 bg-accent/15 text-accent">WHY H & A ENERGY SERVICES</span>
-          <h2 className="mt-4 text-3xl font-bold sm:text-4xl">Why Choose H & A Energy Services?</h2>
+          <span className="eyebrow border-accent/40 bg-accent/15 text-accent">WHY KHAN&nbsp;SOLAR &amp; ELECTRONICS WORK&nbsp;</span>
+          <h2 className="mt-4 text-3xl font-bold sm:text-4xl">Why Choose Khan Solar &amp; Electronics Work&nbsp;</h2>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {WHY.map((item) => (

@@ -23,14 +23,14 @@ export function Hero() {
       <div className="section-shell relative grid gap-10 py-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:py-28">
         <div className="max-w-2xl text-navy-foreground">
           <span className="eyebrow border-accent/40 bg-accent/15 text-accent">
-            Solar Experts in Wazirabad & Gujranwala
+             SOLAR EXPERTS IN KARACHI DEVISION
           </span>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] sm:text-5xl lg:text-6xl">
-            Power Your Future with H & A Energy Services
+             Power Your Future with Khan Solar & Electronics Work&nbsp;
           </h1>
           <p className="mt-5 max-w-xl text-base text-navy-muted sm:text-lg">
             Clean, Reliable, and Cost-Effective Solar Power Solutions for Homes, Agriculture, and
-            Industries in Punjab.
+             Industries in Karachi.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a

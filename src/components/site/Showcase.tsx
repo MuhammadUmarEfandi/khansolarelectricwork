@@ -20,11 +20,11 @@ const PACKAGES = [
 ];
 
 const PROJECTS = [
-  { title: "7 kW Hybrid Home System", place: "Wazirabad", category: "Residential", image: residential },
-  { title: "120 kW Factory Solarization", place: "Wazirabad", category: "Industrial", image: industrial },
-  { title: "15 kW Solar Tube Well", place: "Gujranwala", category: "Agricultural", image: agriculture },
-  { title: "10 kW On-Grid Rooftop", place: "Wazirabad", category: "Residential", image: residential },
-  { title: "50 kW Commercial Plaza", place: "Wazirabad", category: "Industrial", image: industrial },
+  { title: "7 kW Hybrid Home System", place: "Nazimabad, Karachi", category: "Residential", image: residential },
+  { title: "120 kW Factory Solarization", place: "Clifton, Karachi", category: "Industrial", image: industrial },
+  { title: "15 kW Solar Tube Well", place: "Defence, Karachi", category: "Agricultural", image: agriculture },
+  { title: "10 kW On-Grid Rooftop", place: "Saddar, Karachi", category: "Residential", image: residential },
+  { title: "50 kW Commercial Plaza", place: "Gulshan-e-Iqbal, Karachi", category: "Industrial", image: industrial },
   { title: "10 kW Farm Pump System", place: "Gujranwala", category: "Agricultural", image: agriculture },
 ];
 
@@ -166,7 +166,7 @@ export function Projects() {
                   {project.category}
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold">{project.title}</h3>
-                <p className="mt-1 text-sm text-muted-foreground">{project.place}, Punjab</p>
+                 <p className="mt-1 text-sm text-muted-foreground">{project.place}</p>
               </div>
             </article>
           ))}
