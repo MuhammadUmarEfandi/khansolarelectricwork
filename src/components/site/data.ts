@@ -5,10 +5,10 @@ export const COMPANY = {
   email: "info@khansolarelectricwork.com",
   hours: "Mon – Sat: 9:00 AM – 7:00 PM",
   phones: [
-    { label: "", tel: "03279787752", wa: "https://wa.me/+923279787752" },
-    { label: "0313 2247965", tel: "03279787751", wa: "https://wa.me/+923279787751" },
+    { label: "", tel: "03132247965", wa: "https://wa.me/+923132247965" },
+    { label: "0313 2247965", tel: "03132247965", wa: "https://wa.me/+923132247965" },
   ],
-  whatsapp: "+923279787751",
+  whatsapp: "+923132247965",
   facebook: "https://www.facebook.com/people/HA-Energy-Services/61550086078248/",
   youtube: "https://www.youtube.com/@engr.husnain",
 };

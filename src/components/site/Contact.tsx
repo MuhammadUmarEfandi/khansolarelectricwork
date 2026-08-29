@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { z } from "zod";
 import { toast } from "sonner";
-import { MapPin, Phone, Mail, Clock, Send, Facebook, Youtube } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { COMPANY, NAV_LINKS, SERVICE_AREAS } from "./data";
 import { Logo } from "./Navigation";
 
@@ -180,11 +180,6 @@ export function Contact() {
   );
 }
 
-const SOCIALS = [
-  { icon: Facebook, label: "Facebook", href: COMPANY.facebook },
-  { icon: Youtube, label: "YouTube", href: COMPANY.youtube },
-];
-
 export function Footer() {
   return (
     <footer className="bg-navy text-navy-foreground">
@@ -197,20 +192,6 @@ export function Footer() {
             Khan Solar & Electric Work designs, installs and maintains tier-1 solar power systems for homes,
             farms and industries across Karachi.
           </p>
-          <div className="mt-5 flex gap-2">
-            {SOCIALS.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={social.label}
-                className="grid h-11 w-11 place-items-center rounded-lg border border-navy-foreground/20 transition-colors hover:bg-primary hover:text-primary-foreground"
-              >
-                <social.icon className="h-5 w-5" aria-hidden="true" />
-              </a>
-            ))}
-          </div>
         </div>
 
         <nav aria-label="Quick links">
