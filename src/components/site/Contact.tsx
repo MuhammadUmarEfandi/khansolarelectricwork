@@ -194,8 +194,8 @@ export function Footer() {
             <Logo />
           </div>
           <p className="mt-4 text-sm text-navy-muted">
-            H & A ENERGY SERVICES designs, installs and maintains tier-1 solar power systems for homes,
-            farms and industries across Punjab.
+            Khan Solar & Electric Work designs, installs and maintains tier-1 solar power systems for homes,
+            farms and industries across Karachi.
           </p>
           <div className="mt-5 flex gap-2">
             {SOCIALS.map((social) => (
@@ -266,7 +266,7 @@ export function Footer() {
       </div>
       <div className="border-t border-navy-foreground/15 py-6">
         <p className="section-shell text-center text-sm text-navy-muted">
-          © 2026 H & A Energy Services — Made With ❤️ Zunfiy Tech Inc
+          © 2026 Khan Solar & Electric Work — Made With ❤️ Zunfiy Tech Inc
         </p>
       </div>
     </footer>

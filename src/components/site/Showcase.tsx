@@ -25,7 +25,7 @@ const PROJECTS = [
   { title: "15 kW Solar Tube Well", place: "Defence, Karachi", category: "Agricultural", image: agriculture },
   { title: "10 kW On-Grid Rooftop", place: "Saddar, Karachi", category: "Residential", image: residential },
   { title: "50 kW Commercial Plaza", place: "Gulshan-e-Iqbal, Karachi", category: "Industrial", image: industrial },
-  { title: "10 kW Farm Pump System", place: "Gujranwala", category: "Agricultural", image: agriculture },
+  { title: "10 kW Farm Pump System", place: "Saddar, Karachi", category: "Agricultural", image: agriculture },
 ];
 
 const FILTERS = ["All", "Residential", "Industrial", "Agricultural"] as const;
@@ -33,19 +33,19 @@ const FILTERS = ["All", "Residential", "Industrial", "Agricultural"] as const;
 const REVIEWS = [
   {
     name: "Muhammad Asif",
-    place: "Gujranwala",
+    place: "Gulshan-e-Iqbal",
     quote:
       "H & A Energy Services installed our 10kW hybrid system in under a week. Our bill dropped from PKR 48,000 to almost nothing after net metering.",
   },
   {
     name: "Rana Waqas",
-    place: "Nowshera Virkan",
+    place: "Clifton",
     quote:
       "Our solar tube well has replaced diesel completely. The team surveyed the field properly and sized the pump exactly right.",
   },
   {
     name: "Hafiz Bilal",
-    place: "Wazirabad",
+    place: "Nazimabad",
     quote:
       "Professional engineering and honest pricing for our factory rooftop. After-sales support is genuinely 24/7.",
   },
@@ -200,7 +200,7 @@ export function Reviews() {
               </blockquote>
               <figcaption className="mt-5 border-t border-border pt-4">
                 <span className="block font-semibold">{review.name}</span>
-                <span className="text-sm text-muted-foreground">{review.place}, Punjab</span>
+                <span className="text-sm text-muted-foreground">{review.place}, Karachi</span>
               </figcaption>
             </figure>
           ))}

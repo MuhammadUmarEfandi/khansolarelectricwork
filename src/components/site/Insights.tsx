@@ -45,7 +45,7 @@ const FAQS = [
     a: "Very little. Panels should be cleaned every 4 to 8 weeks depending on dust, and we recommend an annual inverter and wiring inspection — both covered by our maintenance plans.",
   },
   {
-    q: "Do you install systems outside Gujranwala?",
+    q: "Do you install systems outside Karachi?",
     a: "Yes. We regularly install across Gujranwala, Nowshera Virkan, Lahore, Sialkot, Sheikhupura, Hafizabad, Gujrat and Wazirabad.",
   },
 ];
